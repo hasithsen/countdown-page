@@ -1,5 +1,5 @@
-// Set the countdown date
-const countdownDate = new Date("Oct 14, 2024 05:30:00").getTime();
+// Set the countdown date in UTC
+const countdownDate = new Date("2024-10-13T14:00:00Z").getTime();
 
 // Function to generate countdown HTML and insert into page
 function createCountdownWidget() {
