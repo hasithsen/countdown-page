@@ -1,0 +1,12 @@
+Hi, my name is Hasith and this is my demo for Opensource Hackfest. 
+
+I've built a web page that displays a real-time 
+countdown timer for a website that is under construction or preparing for a major launch. 
+
+We have the HTML, styled with CSS, and JavaScript code for the countdown timer logic.
+
+This is built in a modular manner. The JavaScript code dynamically creates the timer element inside this div.
+
+Since this runs in the visitor's web browser, we use UTC time to ensure that the countdown is displayed correctly regardless of where the visitor is located, and we have a loop that takes care of updating the timer values for the visitors to see. 
+
+It keeps visitors informed of the exact time until the website goes live, while offering a sleek, customizable interface. 
