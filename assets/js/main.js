@@ -53,7 +53,7 @@ function updateCountdown() {
     }
 }
 
+const countdownFunction = setInterval(updateCountdown, 1000);
 // Create the countdown widget and start the countdown
 createCountdownWidget();
 updateCountdown(); // Initial call to display values immediately
-const countdownFunction = setInterval(updateCountdown, 1000);
